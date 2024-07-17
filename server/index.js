@@ -2,7 +2,7 @@ require('dotenv').config(); // Load environment variables
 const express = require('express');
  const fetch=require('node-fetch');
 
-// const OPENAI_API_KEY = process.env.OPENAI_API_KEY; // Use the API key from .env
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY; // Use the API key from .env
 
 const app = express();
 const port = 5050;
